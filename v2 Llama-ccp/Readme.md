@@ -6,7 +6,7 @@ Based on [onicai/llama_cpp_canister](https://github.com/onicai/llama_cpp_caniste
 
 ## What's New in v2
 
-This is a major upgrade from the v1 canister (`.ernie-deploy/`), which used an older llama.cpp fork.
+This is a upstream upgrade from the oncai Llama-ccp , which used an older llama.cpp fork.
 
 ### New Model Architectures
 
