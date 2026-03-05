@@ -6,5 +6,13 @@ a lightweight architecture for the ic to run small language models
 3. ic specific optimzations of the constructor.
 
 example:
-Smollm2: 64 token limit
-QWEN2.5-0.5: 18 token limit
+  ┌────────────────────┬───────────────────┬─────────────┬──────────── ────────────────────┐
+  │       Model        │ max_tokens_update │             │
+  ├────────────────────┼───────────────────┼─────────────┼─────────────────────────────────┤
+  │ Qwen 0.5B          │ 25                │ 25          │ ~8.5s first call, ~4s follow-up │
+  ├────────────────────┼───────────────────┼─────────────┤
+  │ SmolLM2 135M       │ 50                │ 50          │ ~6s first call, ~8s follow-up   │
+  ├────────────────────┼───────────────────┼─────────────┤
+  │ Qwen 0.5B (Spicy)  │ 25                │ 25          │ ~8.5s first call, ~4s follow-up │
+  ├────────────────── ─┼─────────────────-─┼─────────────┼────────────
+  │ Qwen 0.5B Coder    │ 25                │ 25          │ ~8.5s first call, ~4s follow-up
