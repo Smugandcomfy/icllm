@@ -9,6 +9,7 @@ Based on [onicai/llama_cpp_canister](https://github.com/onicai/llama_cpp_caniste
   ├──────────────┼───────────────┼─────────────────────────────────────────┤                                                                
   │ Qwen3-0.6B   │ ~490MB        │ Borderline — likely same OOM as Qwen3.5 │                                                                
   ├──────────────┼───────────────┼─────────────────────────────────────────┤
+
   │ Qwen3.5-0.6B │ ~508MB        │ No (confirmed crash)                    │
 
 ## What's New in v2
