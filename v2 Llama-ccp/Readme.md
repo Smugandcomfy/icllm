@@ -4,6 +4,13 @@ Internet Computer Specific
 
 Based on [onicai/llama_cpp_canister](https://github.com/onicai/llama_cpp_canister), 
 
+  ├──────────────┼───────────────┼─────────────────────────────────────────┤                                                                
+  │ Qwen2.5-0.5B │ ~469MB        │ Yes (working)                           │         
+  ├──────────────┼───────────────┼─────────────────────────────────────────┤                                                                
+  │ Qwen3-0.6B   │ ~490MB        │ Borderline — likely same OOM as Qwen3.5 │                                                                
+  ├──────────────┼───────────────┼─────────────────────────────────────────┤
+  │ Qwen3.5-0.6B │ ~508MB        │ No (confirmed crash)                    │
+
 ## What's New in v2
 
 This is a upstream upgrade from the oncai Llama-ccp , which used an older llama.cpp fork.
