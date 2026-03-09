@@ -1,5 +1,5 @@
 # icllm
-v2 & v3 v4 canister interfaces for Small Language Models like QWEN3.5 0.05 &amp; Phi3 mini and v3 canister interfaces for Small Language Models like Smollm3 and Qwen2.5, falcon h1, qwen3.5 .08b, falcon h1r deep etc
+v2 & v3 v4 canister interfaces for Small Language Models like QWEN3.5 0.05 & Smollm3 and Qwen2.5, falcon h1, qwen3.5 .08b, falcon h1r deep etc
 
 Models Running:
 Falcon-H1-0.5b
